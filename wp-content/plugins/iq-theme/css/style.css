@@ -1,0 +1,113 @@
+
+/* iq-theme/css/style.css */
+
+body.twentytwelve.art{
+    /* background: #2b2b2b; */
+}
+
+.home .entry-header {
+    display: none;
+}
+
+#masthead {
+    padding: 0;
+}
+
+#masthead hgroup {
+    display: none;
+}
+
+#site-navigation {
+    margin-top: 0;
+}
+
+#comments {
+    display: none;
+}
+
+.template-front-page .widget-area .widget, .template-front-page.two-sidebars .widget-area .front-widgets {
+    width: 100%;
+}
+.widget_rsg h3 {
+   font-size: inherit;
+   margin-bottom: 5px;  
+}
+
+.widget_rsg h3 {
+   display: none;  
+}
+
+.rsg_item {
+    float: left;
+    margin-left: 3px;
+}
+
+.rsg_item:first-child {
+    margin-left: 0;
+}
+
+footer.entry-meta {
+    margin-top: 0;
+}
+
+.site-content {
+    margin: 0;
+}
+
+.site-content article {
+    padding-bottom: 0;
+}
+
+.template-front-page .widget-area {
+    padding-top: 0;
+}
+
+.widget-area .widget h3 {
+    margin-bottom: 0;
+}
+
+.entry-content iframe {
+    margin-bottom: 0;
+}
+
+footer[role="contentinfo"] {
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 960px) {
+    body .site {
+        padding: 0 5px;
+        padding: 0 2.857142857rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-shadow: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     .site-title {
+         display: none;
+     }
+     .site-description {
+         display: none;
+     }
+     
+     .main-navigation { 
+          margin-top: 10px;
+     }
+     
+     .home .entry-header {
+         display: none;
+     }
+     
+     .site-header {
+        padding: 10px 0;
+        padding: 0.5rem 0;    
+     }
+     
+     .site-content {
+        margin-top: 10px;
+        margin-top: 0.5rem;
+     }     
+}
