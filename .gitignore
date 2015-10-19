@@ -1,4 +1,3 @@
-.htaccess
 wp-config.php
 wp-content/server/
 wp-content/uploads/
@@ -18,7 +17,6 @@ wp-content/plugins/wp-site-architect/
 wp-content/plugins/wp-developer/
 wp-content/plugins/wp-scientific/
 wp-content/plugins/wp-code-counter/
-wp-content/plugins/restrained-analytics/
 wp-content/plugins/restrained-menus/
 wp-content/plugins/restrained-slideshow/
 wp-content/plugins/restrained-social/shortcode.php
@@ -34,5 +32,3 @@ wp-content/plugins/iq-mapper/
 wp-content/plugins/iq-solar/
 wp-content/plugins/iq-dials/
 wp-content/downloads/
-
-
